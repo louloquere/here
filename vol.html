@@ -20,11 +20,6 @@
       /* color: #fff; */
     }
 
-    header {
-      background-image: url("img/frontp.jpg");
-
-    }
-
     header .navbar .navbar-nav .nav-item .nav-link:hover {
       color: #6fce77 !important;
     }
@@ -49,51 +44,54 @@
 </head>
 
 <body>
-    <header class="vh-100 bg-cover" id="top">
-        <nav class="navbar navbar-expand-xl pt-5 pb-5">
-          <div class="container">
-            <a class="navbar-brand d-flex align-content-center align-items-center px-4" href="#">
-              <img src="img/logo.png" alt="Logo" height="100" class="d-inline-block align-text-top">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="col-4 collapse navbar-collapse justify-content-end px-4" id="navbar">
-              <ul class="navbar-nav mb-2 mt-4 mb-lg-0 text-md-end">
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active mx-lg-2" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fw-bold mx-lg-2" href="about.html">About us</a>
-                </li>
-              </ul>
-            </div>
-        </nav>
+  <header class="vh-100 bg-cover" id="top">
+    <nav class="navbar navbar-expand-xl pt-5 pb-5">
+      <div class="container">
+        <a class="navbar-brand d-flex align-content-center align-items-center px-4" href="#">
+          <img src="img/logo.png" alt="Logo" height="100" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="col-4 collapse navbar-collapse justify-content-end px-4" id="navbar">
+          <ul class="navbar-nav mb-2 mt-4 mb-lg-0 text-md-end">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active mx-lg-2" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold mx-lg-2" href="about.html">About us</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
 
     <div class="container mt-3">
-        <form action="/action_page.php">
-          <div class="mb-3 mt-3">
-            <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
-                <label class="form-check-label" for="mySwitch">I want to be anonymous</label>
-              </div>
-            <label for="text text-success">First name:</label>
-            <input type="email" class="form-control" id="email" placeholder="Example: John" name="email">
+      <form>
+        <div class="mb-3 mt-3">
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
+            <label class="form-check-label" for="mySwitch">I want to be anonymous</label>
           </div>
-          <div class="mb-3">
-            <label for="text text-success">Last name:</label>
-            <input type="password" class="form-control" id="pwd" placeholder="Example: Dela Cruz" name="pswd">
-          </div>
-          <label for="comment">Tell us your story</label>
-<textarea class="form-control" rows="5" id="comment" name="text"></textarea>
-          <div class="form-check mb-3">
-        
-          </div>
-          <button type="submit" class="btn btn-outline-success btn-lg">Submit</button>
-        </form>
-      </div>
+          <label for="text text-success">First name:</label>
+          <input type="email" class="form-control" id="email" placeholder="Example: John" name="email">
+        </div>
+        <br>
+        <div class="mb-3">
+          <label for="text text-success">Last name:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Example: Dela Cruz" name="pswd">
+        </div>
+        <br>
+        <label for="comment">Tell us your story</label>
+        <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+        <div class="form-check mb-3">
 
+        </div>
+        <button type="submit" class="btn btn-outline-success btn-lg">Submit</button>
+      </form>
+    </div>
+    <br>
+    <br>
 
 </body>
 <footer>

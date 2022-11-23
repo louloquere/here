@@ -17,7 +17,6 @@
     html {
       font-family: "Sofia", sans-serif;
       scroll-behavior: smooth;
-      /* color: #fff; */
     }
 
     header {
@@ -27,11 +26,6 @@
 
     header .navbar .navbar-nav .nav-item .nav-link:hover {
       color: #6fce77 !important;
-    }
-
-    .nav-hov:hover {
-      border-bottom: #ffcc00;
-      border-bottom-style: solid;
     }
 
     .header-content {
@@ -44,6 +38,15 @@
     .header-content h1 {
       font-size: 8rem;
     }
+    #overflow {
+  background: white;
+  color: #4CAF50;
+  padding: 50px;
+  width: 100%;
+  height: 500px;
+  overflow: scroll;
+  border: 1px solid #ccc;
+}
   </style>
 
 </head>
@@ -61,23 +64,21 @@
         <div class="col-4 collapse navbar-collapse justify-content-end px-4" id="navbar">
           <ul class="navbar-nav mb-2 mt-4 mb-lg-0 text-md-end">
             <li class="nav-item">
-              <!-- Button to Open the Modal -->
               <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myModal">
                 If you are in crisis please click here!
               </button>
 
-              <!-- The Modal -->
               <div class="modal" id="myModal">
                 <div class="modal-dialog">
                   <div class="modal-content">
 
-                    <!-- Modal Header -->
+
                     <div class="modal-header">
                       <h4 class="modal-title">Hopeline PH's 24/7 hotlines:</h4>
                       <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
-                    <!-- Modal body -->
+
                     <div class="modal-body">
                       <p class="text-center">0917-558-4673 (Globe)</p>
                       <p class="text-center">0918-873-4673 (Smart) </p>
@@ -85,7 +86,7 @@
                       <p class="text-center">2919 (toll-free for Globe and TM)</p>
                     </div>
 
-                    <!-- Modal footer -->
+
                     <div class="modal-footer">
                       <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Exit</button>
                     </div>
@@ -114,34 +115,33 @@
     </div>
   </header>
   <hr class="hr hr-blurry" />
-  
+
 
   <hr class="hr hr-blurry" />
   <div class="container mt-5">
     <h1 class="text-center text-success">Here are some tips to cope up with different emotions.</h1>
-    <br>
-    <br>
+    <div class="container p-3 my-3 text-white"></div>
     <div class="row">
       <div class="col-sm-4">
         <h3 class="text-success"><strong>Feeling alone</strong></h3>
         <p>Distract yourself from those feelings of loneliness and make a date with yourself. Do you have a hobby
           you've...</p>
         <button type="button" class="btn btn-outline-success">Continue reading</button>
-        <img src="img/alone.jpg" alt="Logo" height="200" width="200" class="d-inline-block align-text-top">
+        <img src="img/alone.jpg" alt="alone" height="200" width="200" class="d-inline-block align-text-top">
       </div>
       <div class="col-sm-4">
         <h3 class="text-success"><strong>Anxiety</strong></h3>
         <p>Try breathing in for 4 counts and breathing out for 4 counts for 5 minutes total. By evening out your
           breath,..</p>
         <button type="button" class="btn btn-outline-success">Continue reading</button>
-        <img src="img/anxiety.jpg" alt="Logo" height="200" width="200" class="d-inline-block align-text-top">
+        <img src="img/anxiety.jpg" alt="anxiety" height="200" width="200" class="d-inline-block align-text-top">
       </div>
       <div class="col-sm-4">
         <h3 class="text-success"><strong>Burnout</strong></h3>
         <p>Want to know how to recover from burnout while still working? Try implementing a regular exercise routine...
         </p>
         <button type="button" class="btn btn-outline-success">Continue reading</button>
-        <img src="img/burnout.jpg" alt="Logo" height="200" width="200" class="d-inline-block align-text-top">
+        <img src="img/burnout.jpg" alt="burnout" height="200" width="200" class="d-inline-block align-text-top">
       </div>
     </div>
   </div>
@@ -152,14 +152,14 @@
         <p>In the heat of the moment, it's easy to say something you'll later regret. Take a few moments to collect
           your...</p>
         <button type="button" class="btn btn-outline-success">Continue reading</button>
-        <img src="img/angry.jpg" alt="Logo" height="200" width="200" class="d-inline-block align-text-top">
+        <img src="img/angry.jpg" alt="angry" height="200" width="200" class="d-inline-block align-text-top">
       </div>
       <div class="col-sm-4">
         <h3 class="text-success"><strong>Pressured</strong></h3>
         <p>Living under pressure is hard. Be compassionate towards yourself. Cut yourself some slack where you can.
           .....</p>
         <button type="button" class="btn btn-outline-success">Continue reading</button>
-        <img src="img/pressured.jpg" alt="Logo" height="200" width="200" class="d-inline-block align-text-top">
+        <img src="img/pressured.jpg" alt="pressured" height="200" width="200" class="d-inline-block align-text-top">
 
       </div>
       <div class="col-sm-4">
@@ -167,11 +167,79 @@
         <p>People with depression often experience low self-esteem, so finding ways to feel better about yourself is an
           important....</p>
         <button type="button" class="btn btn-outline-success">Continue reading</button>
-        <img src="img/down.jpg" alt="Logo" height="200" width="200" class="d-inline-block align-text-top">
+        <img src="img/down.jpg" alt="down" height="200" width="200" class="d-inline-block align-text-top">
       </div>
     </div>
   </div>
-<hr class="hr hr-blurry" />
+  <div class="container p-3 my-3 text-white"></div>
+  <div class="container p-3 my-3">
+    <h3>An open letter for you.</h3>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+
+        <div id="overflow"><strong>Hey you,</strong><br>
+          <br>
+          First, I want you to know how much everyone in your life loves you.<br>
+          <br>
+          I know you feel like the entire universe rests on your shoulder. And you don't know how to balance it. You
+          don't know if and when it is going eventually crush you.<br>
+          <br>
+          I know it feels like nothing you do ends up well. And that despite all your efforts, it feels like you aren't
+          appreciated. And at this point, everything seems bleak. You don't even know if you can get through another
+          day.<br>
+          <br>
+          I also know that no one knows exactly how you feel. There are no words to express the things going through
+          your mind the ache in your heart. Other people (including me) can't even know how you feel because you don't
+          know yourself. You've tried many things to rid yourself of the emptiness - drugs, sex, sports, adrenaline rush
+          - but all they do is just temporarily fill the void which seem to get bigger by the moment.<br>
+          <br>
+          So I am not going to tell you how to feel better or to keep your head up because I know none of that matters.
+          What I will do is to tell you how I feel.<br>
+          <br>
+          I feel like you're a shining star in my life. You may be in the darkest imaginable place but I want, nay NEED
+          you to know that you are the light at the end of tunnel for me. I call you my Abacus because I know I can
+          always count on you. I can always be vulnerable and my silly self around you. We can have a conversation about
+          movies and switch the next minute to talking about politics in the 1800s without skipping a beat. Point is
+          you're very amazing!<br>
+          <br>
+          I feel like you're one of the bravest people I know. One of the strongest too. The fact that you have all
+          these undefinable things going on in your head yet you still manage to leave your bed and face the world every
+          day. You wear a smiley mask every morning and swim against life currents and the occasional tree trunks that
+          add insult to injury. I feel like you think you're a burden to people around you. So you don't complain or
+          vent and just hold in it. But I need you to know that I am here for a reason. When I tell you that I am always
+          here for you, it's not just to be nice, I really mean it.<br>
+          <br>
+          I want you to know that I will always be here for you no matter what. My phone lines are always available for
+          you even at 2 o'clock in the morning. My door is also always open to you. I don't claim to know the right
+          things to say but I'll always find a way to cheer you up. I could sing to you in my horrible voice (Dad once
+          said I sounded like a frog), or dance zanku for you... I'll listen to you vent or rant about anything, offer
+          my shoulder and hug you tight.<br>
+          <br>
+          You're an amazing person and even if you can't see that now, I'm sure you will soon. You deserve to know how
+          important you are to the people around you.<br>
+          <br>
+          I don't want you to think you're irreplaceable, you're not.<br>
+          <br>
+          I don't want your failures to define who you are...<br>
+          <br>
+          I don't want you to ever wonder if you should be in the world.<br>
+          <br>
+          And if you ever think you have no reason to be alive, think of me. I need you here. I always have, and I
+          always will.<br>
+          <br>
+          Signed,<br>
+          <br>
+          A concerned friend..
+          <p class="text-muted">https://www.linkedin.com/pulse/open-letter-depressed-friend-afolabi-ojabowale/</p>
+          </div>
+      </div>
+      <div class="col-sm-6">
+        <img src="img/all.jpg" alt="help" height="500" width="500">
+      </div>
+    </div>
+  </div>
 </body>
 <footer>
   <div class="text-center p-3 bg-success">

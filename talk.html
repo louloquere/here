@@ -20,10 +20,7 @@
       /* color: #fff; */
     }
 
-    header {
-      background-image: url("img/frontp.jpg");
 
-    }
 
     header .navbar .navbar-nav .nav-item .nav-link:hover {
       color: #6fce77 !important;
@@ -44,39 +41,63 @@
     .header-content h1 {
       font-size: 8rem;
     }
+
+    input[type=text] {
+      width: 100%;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: white;
+      background-image: url('fa-duotone fa-comments');
+      background-position: 10px 10px;
+      background-repeat: no-repeat;
+      padding: 12px 20px 12px 40px;
+    }
   </style>
 
 </head>
 
 <body>
-    <header class="vh-100 bg-cover" id="top">
-        <nav class="navbar navbar-expand-xl pt-5 pb-5">
-          <div class="container">
-            <a class="navbar-brand d-flex align-content-center align-items-center px-4" href="#">
-              <img src="img/logo.png" alt="Logo" height="100" class="d-inline-block align-text-top">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="col-4 collapse navbar-collapse justify-content-end px-4" id="navbar">
-              <ul class="navbar-nav mb-2 mt-4 mb-lg-0 text-md-end">
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active mx-lg-2" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fw-bold mx-lg-2" href="about.html">About us</a>
-                </li>
-              </ul>
-            </div>
-        </nav>
+  <header class="vh-100 bg-cover" id="top">
+    <nav class="navbar navbar-expand-xl pt-5 pb-5">
+      <div class="container">
+        <a class="navbar-brand d-flex align-content-center align-items-center px-4" href="#">
+          <img src="img/logo.png" alt="Logo" height="100" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="col-4 collapse navbar-collapse justify-content-end px-4" id="navbar">
+          <ul class="navbar-nav mb-2 mt-4 mb-lg-0 text-md-end">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active mx-lg-2" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold mx-lg-2" href="about.html">About us</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
 
+
+    <div class="container">
+      <h2 class="text-success">We won't judge you, talk to us.</h2>
+
+      <form>
+        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Your message..."></textarea>
+
+      </form>
+      <br>
+      <button type="button" class="btn btn-outline-success btn-lg">Send!</button>
+    </div>
 
 
 </body>
 <footer>
-  <div class="mt-5 p-4 bg-success text-white text-center">
-    <p>2022 . Lourdame Loquere</p>
+  <div class="text-center p-3 bg-success">
+    © 2022 Lourdame Loquere
   </div>
 </footer>
 
